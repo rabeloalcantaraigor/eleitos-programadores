@@ -20,5 +20,7 @@ public class TesteCarro {
 		
 		System.out.println(fusca.marca);
 		System.out.println(fusca.modelo);
+
+    van.exibirAutonomia();
 	}
 }
