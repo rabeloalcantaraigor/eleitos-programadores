@@ -29,7 +29,7 @@ Se (R = "N") entao
       EscrevaL ("")
       EscrevaL ("")
       Escreval ("  Obrigado por participar!:D")
-      Escreval("Lembre-se: sempre preste atenção ao digitar letras maíusculas e minúsculas")
+      Escreval ("Lembre-se: sempre preste atenção ao digitar letras maíusculas e minúsculas")
       EscrevaL ("")
             Escreval ("        Partiu Java?        ")
      Fimalgoritmo
@@ -40,6 +40,16 @@ FimProcedimento
 
 Inicio
 // Seção de Comandos, funções, operadores, etc...
+revisao ()
+Escreval ("                                   ")
+Escreval ("     Declaração de Variável        ")
+Escreval ("                                   ")
+Escreval ("caractere: texto                   ")
+Escreval ("Real: número simples  EX: 10       ")
+Escreval ("Inteiro: número com ponto EX: 10.14")
+continuar ()
+
+
 revisao ()
 EscrevaL ("Operadores Lógicos: ")
 EscrevaL (">, <, >=, <=, =, <>")
@@ -97,7 +107,6 @@ Escreval ("Para <valor incial> ate <valor final> faca")
 EscrevaL ("|       <faça isso>                       ")
 EscrevaL ("FimPara                                   ")
 EscrevaL ("")
-
 
 
 
