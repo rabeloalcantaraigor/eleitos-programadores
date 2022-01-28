@@ -3,7 +3,7 @@ public class TesteCarro {
     Carro van = new Carro();
     van.marca = "Fiat";
     van.modelo = "Ducato";
-    van.numPassageiros = 10;
+    // van.numPassageiros = 10;
     van.capCombustivel = 100;
     van.consumoCombustivel = 0.2;
 
@@ -26,10 +26,22 @@ public class TesteCarro {
     // System.out.println("A autonomia do carro é: " + autonomia);
     // System.out.println("A autonomia do carro é: " + van.obterAutonomia());
     
-    double qtdCombustivel10 = van.calcularCombustivel(10);
-		double qtdCombustivel15 = van.calcularCombustivel(15);
+    // double qtdCombustivel10 = van.calcularCombustivel(10);
+		// double qtdCombustivel15 = van.calcularCombustivel(15);
 		
-		System.out.println("qtdCombustivel10 = " + qtdCombustivel10);
-		System.out.println("qtdCombustivel15 = " + qtdCombustivel15);
+		// System.out.println("qtdCombustivel10 = " + qtdCombustivel10);
+		// System.out.println("qtdCombustivel15 = " + qtdCombustivel15);
+
+    System.out.println(van.numPassageiros);
+		
+		Carro van2 = new Carro("Fiat", "Ducato", 10, 100, 0.2);
+		
+		System.out.println(van2.marca);
+		System.out.println(van2.modelo);
+		System.out.println(van2.numPassageiros);
+		System.out.println(van2.capCombustivel);
+		System.out.println(van2.consumoCombustivel);
+		
+		Carro2 carro2 = new Carro2();
   }
 }
