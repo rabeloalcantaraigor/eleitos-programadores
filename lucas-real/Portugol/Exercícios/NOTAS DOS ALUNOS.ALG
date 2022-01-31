@@ -43,7 +43,6 @@ index()
 Escreval ("     Listagem de Alunos:      ")
 Escreval("")
 Para i<- 1 ate 4 faca
-Escreval("O Aluno ", nome[i], " teve a média ", m[i])
 Se (m[i] > 6) entao
      Escreval("O Aluno ", nome[i], " teve a média ", m[i], " e foi aprovado(a)")
      Escreval("")
