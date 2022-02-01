@@ -7,7 +7,7 @@ inicio
       Escreva ("Altura (M): ")
       Leia (A)
       IMC <- M / (A ^ 2)
-      Escreval ("IMC", IMC:5:2,)
+      Escreval ("IMC ", IMC:5:2)
       Se (IMC < 17) Entao
          EscrevaL ("Muito abaixo do Peso ")
       Senao
@@ -18,7 +18,7 @@ inicio
                    Escreval ("Peso ideal")
                    Senao
                         Se(IMC >= 25) e (IMC <30)Entao
-                           EscrevaL ("Sobrepeso)
+                           EscrevaL ("Sobrepeso")
                         Senao
                              Se (IMC >= 30) e (IMC < 35) Entao
                                 EscrevaL ("Obesidade")
