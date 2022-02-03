@@ -1,0 +1,12 @@
+algoritmo "ola mundo"
+var
+        msg: caractere
+inicio
+
+msg <- "Ola mundo"
+escreval ("mensagen ",msg)
+
+
+
+fimalgoritmo
+fimalgoritmo
